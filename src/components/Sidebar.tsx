@@ -12,7 +12,7 @@ type SidebarProps ={
 
 const Sidebar = ({currentMenu}:SidebarProps) => {
     return (
-        <div className="max-sm:invisible flex flex-col w-90 lg:w-90 md:w-90 h-screen bg-white  gap-2 px-6 py-8">
+        <div className="max-sm:invisible flex flex-col w-90 lg:w-90 md:w-90 h-screen bg-white gap-2 px-6 py-8">
             <div className="flex flex-col items-center gap-3 mb-12">
                 <img src={LogoApp} alt="" className="w-26.25 h-26.25 text-center"/>
                 <div className="text-5xl text-[#1E5DC8] font-sans-poppins font-bold text-shadow-2xs">TRUST</div>

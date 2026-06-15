@@ -14,15 +14,15 @@ const SidebarButton = ({url,icon, label, isActive}: SidebarButtonProps) => {
     const navigate = useNavigate()
     return (
         <Card className={`w-80 h-13.75 rounded-xl shadow-none ${isActive
-            ? "bg-blue-300 text-white font-sans-poppins "
-            : "bg-white text-black font-sans-poppins"
+            ? "bg-blue-300 text-white font-sans-poppins"
+            : "bg-white text-black font-sans-poppins "
         }}`}
               onClick={()=>{
             navigate(url)
         }}>
             <Card.Content className="flex flex-row gap-3 items-center ">
                 {icon}
-                <div className="font-semibold text-2xl tracking-wide">{label}</div>
+                <div className="font-bold text-xl tracking-wide">{label}</div>
             </Card.Content>
         </Card>
     )
