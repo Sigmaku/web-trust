@@ -15,7 +15,7 @@ const SidebarButton = ({url,icon, label, isActive}: SidebarButtonProps) => {
     return (
         <Card className={`w-80 h-13.75 rounded-xl shadow-none ${isActive
             ? "bg-blue-300 text-white font-sans-poppins"
-            : "bg-white text-black font-sans-poppins "
+            : "bg-white text-black font-sans-poppins"
         }}`}
               onClick={()=>{
             navigate(url)
