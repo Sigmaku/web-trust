@@ -1,15 +1,23 @@
-import { useMatches } from "react-router";
+import { useLocation } from "react-router";
 import logoPoltek from "../assets/logo-poltek.png"
 
-interface HandlingTitle {
-    title?: string;
-}
-
 export default function HeaderTitle() {
-    const matches = useMatches();
-    const currentMatch = matches[matches.length - 1];
-    const handle = currentMatch?.handle as HandlingTitle | undefined;
-    const titleView = handle?.title || "Sistem Panel";
+    const location = useLocation();
+    const getTitle = (pathname: string): string => {
+        switch (pathname) {
+            case "/":
+                return "DASHBOARD";
+            case "/barang":
+                return "DAFTAR ALAT";
+            case "/peminjaman":
+                return "PEMINJAMAN";
+            case "/notifikasi":
+                return "NOTIFIKASI";
+            default:
+                return "SISTEM";
+        }
+    }
+    const titleView = getTitle(location.pathname);
 
     return (
         <div className="flex flex-row justify-between">

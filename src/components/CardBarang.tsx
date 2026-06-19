@@ -1,6 +1,6 @@
 import { Card, Button } from "@heroui/react"
 
-type CardBarangGlobalProps = {
+export type CardBarangGlobalProps = {
     gambar: string;
     nama: string;
     kategori: string;
