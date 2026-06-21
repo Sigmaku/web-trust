@@ -5,7 +5,7 @@ import RiwayatPeminjaman from "./RiwayatPeminjaman"
 
 const index = () => {
   return (
-    <div className="bg-[#FAFAFA] w-292.5 min-h-screen pb-12 px-12 rounded-2xl border border-[#1E5DC8] font-sans-poppins">
+    <div className="bg-[#FAFAFA] w-292.5 min-h-screen pb-12 px-12 rounded-2xl border border-primer font-sans-poppins">
         <div className="flex flex-col gap-30">
           {/* HEADER */}
           <HeaderTitle/>

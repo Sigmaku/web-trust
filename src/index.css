@@ -4,3 +4,17 @@
 }
 
 @import "@heroui/styles";
+
+:root {
+    --color-blue: #1E5DC8;
+    --color-kuning: #FDCB2E;
+    --color-abu: #6A6A6A;
+    --color-biru-blur: #72A6FF;
+}
+
+@theme inline {
+    --color-primer: var(--color-blue);
+    --color-sekunder: var(--color-kuning);
+    --color-tersier: var(--color-abu);
+    --color-blur: var(--color-biru-blur);
+}
