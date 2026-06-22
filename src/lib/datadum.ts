@@ -38,7 +38,7 @@ export const ListBarang = [
     },
     {
         id: 6,
-        name: "Kunci Sokset (Socket Wrench)",
+        name: "Kunci Sokset",
         category: "Pemutar",
         toolImage: "https://media.monotaro.id/mid01/big/Perkakas%20Tangan%2C%20Pneumatik%20%26%20Listrik/Perkakas%20Tangan/Kunci%20Sok/Kunci%20Set/Wipro%20Kunci%20Sok%20Set/qvP108539967-1.jpg"
     },
@@ -50,7 +50,7 @@ export const ListBarang = [
     },
     {
         id: 8,
-        name: "Kunci Momen (Torque Wrench)",
+        name: "Kunci Momen",
         category: "Pengencang",
         toolImage: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Torque_wrench_1.jpg"
     },
@@ -62,13 +62,13 @@ export const ListBarang = [
     },
     {
         id: 10,
-        name: "Jangka Sorong (Vernier Caliper)",
+        name: "Jangka Sorong",
         category: "Pengukur",
         toolImage: "https://upload.wikimedia.org/wikipedia/commons/1/18/Dial_caliper.jpg"
     },
     {
         id: 11,
-        name: "Multimeter Digital",
+        name: "Multimeter A&D",
         category: "Pengukur",
         toolImage: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Digital_Multimeter_A830L.jpg"
     },
@@ -86,7 +86,7 @@ export const ListBarang = [
     },
     {
         id: 14,
-        name: "Kunci L (Hex Key)",
+        name: "Kunci L",
         category: "Pemutar",
         toolImage: "https://upload.wikimedia.org/wikipedia/commons/4/47/Allen_keys.jpg"
     },
@@ -98,7 +98,7 @@ export const ListBarang = [
     },
     {
         id: 16,
-        name: "Ragum (Catok Meja)",
+        name: "Ragum",
         category: "Penjepit",
         toolImage: "https://upload.wikimedia.org/wikipedia/commons/d/de/Bench_vice.jpg"
     },
@@ -122,7 +122,7 @@ export const ListBarang = [
     },
     {
         id: 20,
-        name: "Friction Clutch / Impact Wrench",
+        name: "Friction Clutch",
         category: "Pengencang",
         toolImage: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Impact_wrench.jpg"
     }

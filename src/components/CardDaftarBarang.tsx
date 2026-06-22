@@ -3,7 +3,7 @@ import type { CardBarangGlobalProps } from "./CardBarang"
 
 const CardDaftarBarang = ({gambar, nama, kategori}: CardBarangGlobalProps) => {
   return (
-    <Card className="bg-sekunder w-65 h-80 p-6 shrink-0">
+    <Card className="bg-sekunder w-65 h-80 p-6 shrink-0 rounded-xl">
         <Card.Content className="flex flex-col font-sans-poppins gap-2">
             <div className="w-full h-40 ">
                 <img src={gambar} alt={nama} className="w-full h-40"/>

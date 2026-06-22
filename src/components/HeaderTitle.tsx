@@ -24,7 +24,7 @@ export default function HeaderTitle() {
             {/* Title Dashboard */}
             <div className="flex flex-col pt-14">
                 <div className="text-5xl text-[#1E5DC8] font-bold">{titleView}</div>
-                <div className="text-2xl text-[#6A6A6A] font-semibold">Selamat Datang, nama</div>
+                <div className="text-2xl text-[#6A6A6A] font-semibold">Selamat Datang, Serinda</div>
             </div>
             {/* Logo Poltek */}
             <img src={logoPoltek} alt="Logo PGT" className="w-15 h-15 mt-7.5" />

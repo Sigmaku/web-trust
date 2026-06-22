@@ -62,7 +62,7 @@ const BarangFeature = () => {
           Object.entries(barangPerKategori).map(([kategori, list]) => (
             <div key={kategori} className="flex flex-col gap-4">
               {/* Pemisah Kategori */}
-              <div className="text-black font-extrabold text-[32px] border-b pb-2">
+              <div className="text-black font-bold text-[40px] font-sans-poppins border-b pb-2">
                 {kategori}
               </div>
 
