@@ -13,7 +13,7 @@ type SidebarButtonProps ={
 const SidebarButton = ({url,icon, label, isActive}: SidebarButtonProps) => {
     const navigate = useNavigate()
     return (
-        <Card className={`w-80 h-13.75 rounded-xl shadow-none ${isActive
+        <Card className={`w-80 h-13.75 rounded-xl shadow-none cursor-pointer ${isActive
             ? "bg-blur text-white font-sans-poppins"
             : "bg-white text-black font-sans-poppins"
         }}`}

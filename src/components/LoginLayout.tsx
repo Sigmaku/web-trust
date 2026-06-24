@@ -24,7 +24,7 @@ const LoginLayout = () => {
             <div className="font-extrabold text-6xl text-shadow-2xs font-sans-poppins">TRUST</div>
             <div className="text-2xl font-normal font-sans-poppins">Tool Reservation, Usage, and Stock Tracking</div>
           </div>
-
+    
           {/* Login Form */}
           <div className="flex flex-col gap-4 w-125 h-130 pt-10">
             <div className="text-5xl font-bold font-sans-poppins tracking-wide">Selamat Datang</div>

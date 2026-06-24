@@ -5,6 +5,7 @@ import { RiExportFill } from "react-icons/ri";
 import { IoPersonCircle } from "react-icons/io5";
 import SidebarButton from "./SidebarButton.tsx";
 import LogoApp from "../assets/logo-app.png"
+import ProfileButton from "./ProfileButton.tsx";
 
 
 type SidebarProps ={
@@ -14,8 +15,8 @@ type SidebarProps ={
 const Sidebar = ({currentMenu}:SidebarProps) => {
     return (
         <div className="max-sm:invisible flex flex-col w-90 lg:w-90 md:w-90 h-screen bg-white gap-2 px-6 py-8 font-sans-poppins">
-            <div className="flex flex-col items-center gap-3 mb-12">
-                <img src={LogoApp} alt="" className="w-26.25 h-26.25 text-center"/>
+            <div className="flex flex-col items-center gap-6 mb-10">
+                <img src={LogoApp} alt="" className="w-26.25 h-26.25 text-center animate-spin animation-duration-[10s]"/>
                 <div className="text-5xl text-[#1E5DC8] font-bold text-shadow-2xs">TRUST</div>
             </div>
             <div className="flex flex-col gap-2">
@@ -24,14 +25,14 @@ const Sidebar = ({currentMenu}:SidebarProps) => {
                 <SidebarButton icon={<FaToolbox size={24}/>} label={"Daftar Barang"} isActive={currentMenu==="barang"} url={"/barang"}/>
                 <SidebarButton icon={<BiSolidBellRing size={24}/>} label={"Notifikasi"} isActive={currentMenu==="notifikasi"} url={"/notifikasi"}/>
             </div>
-            <div className="flex flex-row w-full h-35 mt-50">
-                <div className="w-25 h-25 p-2">
-                    <IoPersonCircle className="w-full h-full text-primer"/>
-                </div>
-                <div className="flex flex-col py-6">
-                    <div className="text-[22px] font-bold">Serinda</div>
-                    <div className="text-lg font-semibold">2 Teknologi Informasi</div>
-                </div>
+            <div className="mt-66.25">
+                <ProfileButton
+                    arah={"Profile" }
+                    icon={<IoPersonCircle className="w-full h-full"/>}
+                    name={"Serinda"}
+                    kelas={"2 Teknologi Informasi"}
+                    link2={"/profile"}
+                />
             </div>
         </div>  
     )

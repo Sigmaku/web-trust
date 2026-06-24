@@ -1,4 +1,5 @@
 import HeaderTitle from "../../components/HeaderTitle"
+import CardNotifikasi from "./CardNotifikasi"
 
 const index = () => {
   return (
@@ -6,6 +7,9 @@ const index = () => {
       <div className="flex flex-col ">
         {/* Header */}
         <HeaderTitle/>
+
+        {/* Card Notifikasi */}
+        <CardNotifikasi/>
       </div>
     </div>
   )

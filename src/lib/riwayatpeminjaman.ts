@@ -39,7 +39,7 @@ export const ListPeminjaman: RiwayatPeminjaman[] = [
         id: 5,
         namaAlat: "Tang",
         tanggalPinjam: "04/06/2026",
-        tanggalKembali: "-",
+        tanggalKembali: "12/06/2026",
         status: "Dipinjam"
     }
 ]

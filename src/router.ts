@@ -8,6 +8,7 @@ export type Path =
   | `/barang`
   | `/notifikasi`
   | `/peminjaman`
+  | `/profile`
 
 export type Params = {
   
